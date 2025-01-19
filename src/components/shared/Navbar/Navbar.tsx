@@ -18,13 +18,13 @@ const Navbar = () => {
               alt="Travel tales logo"
             />
             <h2 className="uppercase font-semibold text-xl hidden sm:block">
-              Travel Tales
+              Travel Vista
             </h2>
           </Link>
           <GlobalSearch />
         </aside>
         <aside className="hidden md:block">
-          <ul className=" md:flex  items-center gap-x-3">
+          <ul className=" md:flex  items-center gap-x-4">
             <NavListItems />
             <ProtectedNavItems />
           </ul>

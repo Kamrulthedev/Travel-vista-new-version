@@ -1,4 +1,4 @@
-# 🌍 Travels Tales - Travel Tips & Destination Guides
+# 🌍 Travels Vista New - Travel Tips & Destination Guides
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-blue.svg)](https://travel-tales-client.vercel.app/)  
 [![Node.js](https://img.shields.io/badge/Node.js-Server-green.svg)](https://github.com/mahamudulhasan-me/travel-tales-server.git)  
@@ -8,7 +8,7 @@
 
 ## **Project Overview**
 
-Welcome to **Travel Tales**, a dynamic platform designed for travel enthusiasts to share their stories, exchange valuable tips, and connect with fellow travelers! 🌍✈️ With **user authentication**, **social features**, and **premium content access**, this app offers a vibrant community experience where travelers can discover and contribute travel guides, tips, and experiences. Whether you're looking for your next adventure or sharing your latest one, Travel Tales has you covered.
+Welcome to **Travel Vista**, a dynamic platform designed for travel enthusiasts to share their stories, exchange valuable tips, and connect with fellow travelers! 🌍✈️ With **user authentication**, **social features**, and **premium content access**, this app offers a vibrant community experience where travelers can discover and contribute travel guides, tips, and experiences. Whether you're looking for your next adventure or sharing your latest one, Travel Tales has you covered.
 
 ### **Key Features**:
 
@@ -38,7 +38,7 @@ Welcome to **Travel Tales**, a dynamic platform designed for travel enthusiasts 
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/mahamudulhasan-me/travel-tales-server.git
+   git clone https://github.com/Kamrulthedev/Travel-vista-new-version
    cd travel-tales-server
    ```
 
@@ -52,7 +52,7 @@ Welcome to **Travel Tales**, a dynamic platform designed for travel enthusiasts 
    Add your environment variables for MongoDB, JWT Secret, Stripe, and Aamarpay configuration.
 
    ```env
-   NEXT_PUBLIC_BASE_API = https://travel-tales-server.vercel.app/api
+   NEXT_PUBLIC_BASE_API = 
    NEXT_PUBLIC_IMAGEBB_API_KEY = api key
    ```
 
@@ -63,7 +63,7 @@ Welcome to **Travel Tales**, a dynamic platform designed for travel enthusiasts 
    ```
 
 5. **Visit the Live App**:  
-   [Travel Tales Live](https://travel-tales-client.vercel.app/)
+   [Travel Tales Live]()
 
 ---
 
@@ -113,7 +113,7 @@ This project is licensed under the MIT License.
 
 **Links**:
 
-- **[Live Site](https://travel-tales-client.vercel.app/)**
-- **[Backend Repository](https://github.com/mahamudulhasan-me/travel-tales-server.git)**
+- **[Live Site]()**
+- **[Backend Repository]()**
 
 ---
