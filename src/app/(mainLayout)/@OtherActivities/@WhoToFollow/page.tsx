@@ -54,7 +54,7 @@ const WhoToFollow = () => {
                         width={60}
                         height={60}
                         alt="avatar"
-                        className="rounded-full  ring-primary ring-1 p-0.5 size-10"
+                        className="rounded-full  ring-primary ring-1 p-0.5 size-10 object-cover"
                       />
                       <Link href={`/profile/${user?._id}`}>
                         <h1 className="font-medium flex items-center gap-x-1">

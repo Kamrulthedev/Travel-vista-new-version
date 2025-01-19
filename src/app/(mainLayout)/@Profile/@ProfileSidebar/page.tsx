@@ -48,7 +48,7 @@ const ProfileSidebar = () => {
             href={item.link}
             className="flex items-center space-x-3 mb-3 group"
           >
-            <Image src={item.image} width={24} height={24} alt={item.title} />
+            <Image src={item.image} width={24} height={24} alt={item.title} className="object-cover" />
             <p className="font-[500] group-hover:text-primary transition-colors">
               {item.title}
             </p>

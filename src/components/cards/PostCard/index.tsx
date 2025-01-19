@@ -85,7 +85,7 @@ const PostCard = ({ post }: { post: IPost }) => {
             width={60}
             height={60}
             alt="avatar"
-            className="rounded-full ring-1 ring-primary p-0.5 size-12"
+            className="rounded-full ring-1 ring-primary p-0.5 size-12 object-cover"
           />
           <div>
             <aside className="flex items-center gap-x-1">

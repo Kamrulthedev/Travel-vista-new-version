@@ -40,8 +40,8 @@ const ProfileInfo = () => {
             width={60}
             height={60}
             alt="avatar"
-            className="rounded-md ring ring-white bg-blue-100"
-          />
+            className="rounded-md ring ring-violet-500 bg-blue-100 object-cover"
+            />
         )}
       </figure>
 
