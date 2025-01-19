@@ -38,10 +38,10 @@ const ProfileInfo = () => {
           <Image
             src={userData?.profileImage || "/icons/avatar.png"}
             width={60}
-            height={60}
+            height={40}
             alt="avatar"
-            className="rounded-md ring ring-violet-500 bg-blue-100 object-cover"
-            />
+            className="rounded-full h-16 ring ring-white bg-blue-100 object-cover"
+          />
         )}
       </figure>
 
