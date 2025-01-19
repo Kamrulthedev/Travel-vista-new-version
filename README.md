@@ -1,6 +1,6 @@
 # 🌍 Travel Vista - Travel Tips & Destination Guides
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-blue.svg)](https://travel-tales-client.vercel.app/)  
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue.svg)](https://travel-vista-new-version.vercel.app/explore)  
 [![Node.js](https://img.shields.io/badge/Node.js-Server-green.svg)](https://github.com/mahamudulhasan-me/travel-tales-server.git)  
 [![MongoDB](https://img.shields.io/badge/Database-MongoDB-green.svg)](https://www.mongodb.com/)  
 [![JWT](https://img.shields.io/badge/Auth-JWT-orange.svg)](https://jwt.io/)  
@@ -58,14 +58,14 @@ With features like **user authentication**, **social engagement**, and **premium
 Frontend:
 ```bash
 # Clone the frontend repository
-git clone https://github.com/Kamrulthedev/travel-vista-frontend.git
+git clone https://github.com/Kamrulthedev/Travel-vista-new-version
 cd travel-vista-frontend
 ```
 
 Backend:
 ```bash
 # Clone the backend repository
-git clone https://github.com/Kamrulthedev/travel-tales-server.git
+git clone https://github.com/Kamrulthedev/Travel-vista-new-version-server
 cd travel-tales-server
 ```
 
@@ -158,7 +158,7 @@ This project is licensed under the MIT License.
 
 ## **Links**
 
-- **[Live Site](https://travel-tales-client.vercel.app/)**
+- **[Live Site](https://travel-vista-new-version.vercel.app/explore/)**
 - **[Backend Repository](https://github.com/Kamrulthedev/Travel-vista-new-version-server)**
 
 ---
