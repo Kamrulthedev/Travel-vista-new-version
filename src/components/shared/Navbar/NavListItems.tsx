@@ -20,7 +20,7 @@ const NavListItems = () => {
     },
     {
       id: 3,
-      title: "Dashboard",
+      title: "Admin Dashboard",
       path: "/dashboard",
       isPrivate: true,
     },
@@ -33,7 +33,7 @@ const NavListItems = () => {
   return (
     <>
       {navItems.map((navItem) => (
-        <li key={navItem.id} className="font-semibold">
+        <li key={navItem.id} className="font-serif">
           <Link href={navItem.path} className="">
             {navItem.title}
           </Link>

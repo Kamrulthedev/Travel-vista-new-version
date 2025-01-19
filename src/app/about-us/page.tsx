@@ -45,7 +45,7 @@ const AboutUsPage = () => {
     <div className="bg-white overflow-hidden">
       <PageCover title="About Us" image="/images/about-3.jpg" />
       <section className="container py-20  mx-auto bg-white p-5 rounded-md">
-        <div className="w-full">
+        <div className="w-full ">
           {/* about us  */}
           <div className="grid md:grid-cols-2 gap-10 items-center justify-center">
             <aside>
