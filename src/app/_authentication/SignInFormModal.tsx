@@ -121,89 +121,91 @@ export function SignInFormModal({ explore }: { explore?: boolean }) {
         {showSignUpForm ? (
           <SignUpForm />
         ) : (
-          <form
-            onSubmit={handleSubmit(onSubmit)}
-            className="flex flex-col gap-4 mt-5"
-          >
-            <input
-              placeholder="kamrulhassan.org@gmail.com"
-              className="input-style"
-              type="email"
-              {...register("email", { required: "Email is required" })}
-            />
-            {errors.email && (
-              <p className="text-red-500">{errors.email.message}</p>
-            )}
 
-            <div className="relative">
+          <div className="space-y-4">
+            <form
+              onSubmit={handleSubmit(onSubmit)}
+              className="flex flex-col gap-4 mt-5"
+            >
               <input
-                placeholder="Enter password"
-                className="input-style w-full"
-                type={showPassword ? "text" : "password"}
-                {...register("password", {
-                  required: "Password is required",
-                  minLength: {
-                    value: 6,
-                    message: "Password must be at least 6 characters",
-                  },
-                })}
+                placeholder="kamrulhassan.org@gmail.com"
+                className="input-style"
+                type="email"
+                {...register("email", { required: "Email is required" })}
               />
-              {showPassword ? (
-                <EyeOff
-                  onClick={togglePassword}
-                  className="absolute top-1/2 -translate-y-1/2 right-3 cursor-pointer"
-                />
-              ) : (
-                <Eye
-                  onClick={togglePassword}
-                  className="absolute top-1/2 -translate-y-1/2 right-3"
-                />
+              {errors.email && (
+                <p className="text-red-500">{errors.email.message}</p>
               )}
-            </div>
-            {errors.password && (
-              <p className="text-red-500">{errors.password.message}</p>
-            )}
 
-            <div className="flex justify-between items-center text-gray-700">
-              <div className="flex items-center space-x-2">
-                <Checkbox id="terms" />
-                <Label htmlFor="terms">Remember me?</Label>
+              <div className="relative">
+                <input
+                  placeholder="Enter password"
+                  className="input-style w-full"
+                  type={showPassword ? "text" : "password"}
+                  {...register("password", {
+                    required: "Password is required",
+                    minLength: {
+                      value: 6,
+                      message: "Password must be at least 6 characters",
+                    },
+                  })}
+                />
+                {showPassword ? (
+                  <EyeOff
+                    onClick={togglePassword}
+                    className="absolute top-1/2 -translate-y-1/2 right-3 cursor-pointer"
+                  />
+                ) : (
+                  <Eye
+                    onClick={togglePassword}
+                    className="absolute top-1/2 -translate-y-1/2 right-3"
+                  />
+                )}
               </div>
-              <ForgetPassword />
-            </div>
+              {errors.password && (
+                <p className="text-red-500">{errors.password.message}</p>
+              )}
 
-            <DialogFooter className="mt-5">
-              <button
-                disabled={isPending}
-                type="submit"
-                className="w-full bg-primary text-white py-3 rounded-md font-semibold"
-              >
-                Sign In
+              <div className="flex justify-between items-center text-gray-700">
+                <div className="flex items-center space-x-2">
+                  <Checkbox id="terms" />
+                  <Label htmlFor="terms">Remember me?</Label>
+                </div>
+                <ForgetPassword />
+              </div>
+
+              <DialogFooter className="mt-5">
+                <button
+                  disabled={isPending}
+                  type="submit"
+                  className="w-full bg-primary text-white py-3 rounded-md font-semibold"
+                >
+                  Sign In
+                </button>
+              </DialogFooter>
+            </form>
+            <div className="space-y-4">
+              <button className="border border-gray-300 w-full py-3 rounded-md flex items-center gap-2 justify-center hover:bg-gray-100 transition-colors">
+                <Image
+                  src={"/icons/google-symbol.png"}
+                  width={24}
+                  height={24}
+                  alt={"google"}
+                />
+                Sign in with Google
               </button>
-            </DialogFooter>
-          </form>
+              <button className="border border-gray-300 w-full py-3 rounded-md flex items-center gap-2 justify-center hover:bg-gray-100 transition-colors">
+                <Image
+                  src={"/icons/facebook.png"}
+                  width={24}
+                  height={24}
+                  alt={"google"}
+                />
+                Sign in with Facebook
+              </button>
+            </div>
+          </div>
         )}
-
-        <div className="space-y-4">
-          <button className="border border-gray-300 w-full py-3 rounded-md flex items-center gap-2 justify-center hover:bg-gray-100 transition-colors">
-            <Image
-              src={"/icons/google-symbol.png"}
-              width={24}
-              height={24}
-              alt={"google"}
-            />
-            Sign in with Google
-          </button>
-          <button className="border border-gray-300 w-full py-3 rounded-md flex items-center gap-2 justify-center hover:bg-gray-100 transition-colors">
-            <Image
-              src={"/icons/facebook.png"}
-              width={24}
-              height={24}
-              alt={"google"}
-            />
-            Sign in with Facebook
-          </button>
-        </div>
         <p className="text-center text-gray-700 text-sm">
           <p>
             © {new Date().getFullYear()} Travel Vista. All Rights Reserved.

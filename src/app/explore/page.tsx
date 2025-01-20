@@ -67,7 +67,7 @@ const ExplorePage = () => {
             viewOptions={{ margin: "0px 0px -350px 0px" }}
           >
             <Image
-              src={"/images/undraw_adventure_re_ncqp.svg"}
+              src={"/images/undraw_connected_world_wuay.svg"}
               alt="banner image"
               width={800}
               height={800}
