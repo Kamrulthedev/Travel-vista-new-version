@@ -52,12 +52,7 @@ export function SignInFormModal({ explore }: { explore?: boolean }) {
     handleSubmit,
     formState: { errors },
     setError,
-  } = useForm<Inputs>({
-    defaultValues: {
-      email: "mahmud@traveltales.com",
-      password: "Mdun@626456",
-    },
-  });
+  } = useForm<Inputs>();
 
   const onSubmit: SubmitHandler<Inputs> = async (data) => {
     setIsLoading(true);
@@ -131,7 +126,7 @@ export function SignInFormModal({ explore }: { explore?: boolean }) {
             className="flex flex-col gap-4 mt-5"
           >
             <input
-              placeholder="mahamudulhasan.org@gmail.com"
+              placeholder="kamrulhassan.org@gmail.com"
               className="input-style"
               type="email"
               {...register("email", { required: "Email is required" })}
@@ -183,7 +178,7 @@ export function SignInFormModal({ explore }: { explore?: boolean }) {
                 type="submit"
                 className="w-full bg-primary text-white py-3 rounded-md font-semibold"
               >
-                Login
+                Sign In
               </button>
             </DialogFooter>
           </form>
@@ -210,7 +205,9 @@ export function SignInFormModal({ explore }: { explore?: boolean }) {
           </button>
         </div>
         <p className="text-center text-gray-700 text-sm">
-          &copy; 2024. All rights reserved
+          <p>
+            © {new Date().getFullYear()} Travel Vista. All Rights Reserved.
+          </p>
         </p>
       </DialogContent>
     </Dialog>

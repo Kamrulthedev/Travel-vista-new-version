@@ -73,7 +73,7 @@ export default function ResponsiveNav() {
             height={46}
             alt="Travel tales logo"
           />
-          <h2 className="uppercase font-semibold ">Travel Tales</h2>
+          <h2 className="uppercase font-semibold ">Travel Vista</h2>
         </Link>
         <ul className="p-4 flex flex-col-reverse gap-2">
           <NavListItems />
