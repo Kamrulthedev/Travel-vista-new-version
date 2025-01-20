@@ -22,7 +22,7 @@ const ProtectedNavItems = () => {
       </li>
       <li className="size-9 rounded-sm flex justify-center items-center bg-gray-200 cursor-pointer relative">
         <Bell strokeWidth={1} size={18} />
-        <span className="absolute top-0 right-0 inline-block w-2 h-2 transition-all duration-500 ease-in-out bg-red-700 rounded"></span>
+        <span className="absolute top-0 right-0 inline-block w-2 h-2 transition-all duration-500 ease-in-out bg-red-500 rounded"></span>
       </li>
       <li className="size-9 rounded-sm flex justify-center items-center bg-gray-200 cursor-pointer">
         <ProfileUtilsPopover />

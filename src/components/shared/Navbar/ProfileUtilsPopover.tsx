@@ -52,18 +52,22 @@ export function ProfileUtilsPopover() {
   };
   return (
     <Popover open={open} onOpenChange={setOpen}>
-      <PopoverTrigger asChild className="overflow-hidden rounded-full">
-        <Image
-          src={userData?.profileImage || "/icons/avatar.png"}
-          width={50}
-          height={20}
-          alt={userData?.name || "avatar"}
-          className="rounded-full h-10 bg-slate-300 object-cover"
-          loading="lazy"
-        />
+      <PopoverTrigger asChild>
+        <button
+          className="rounded-full overflow-hidden cursor-pointer"
+          onClick={() => setOpen(!open)}
+        >
+          <Image
+            src={userData?.profileImage || "/icons/avatar.png"}
+            width={50}
+            height={50}
+            alt={userData?.name || "avatar"}
+            className="rounded-full h-10 w-10 bg-slate-300 object-cover"
+            loading="lazy"
+          />
+        </button>
       </PopoverTrigger>
-
-      <PopoverContent className="w-fit" align="start">
+      <PopoverContent className="popover-content w-fit" align="start">
         <ul className="space-y-2">
           <li>
             <div className="flex items-center gap-x-2">

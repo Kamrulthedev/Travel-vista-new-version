@@ -24,7 +24,7 @@ const Navbar = () => {
           <GlobalSearch />
         </aside>
         <aside className="hidden md:block">
-          <ul className=" md:flex  items-center gap-x-4">
+          <ul className="md:flex items-center gap-x-4">
             <NavListItems />
             <ProtectedNavItems />
           </ul>
