@@ -14,7 +14,7 @@ const PageCover = ({ image, title }: { title: string; image?: string }) => {
     <div className="w-screen relative mt-1">
       <Image
         src={image || "/images/cover.jpg"}
-        alt={`Travel tales - ${title}`}
+        alt={`Travel-Vista - ${title}`}
         className="w-full h-80 object-cover"
         width={1920}
         height={1080}

@@ -1,13 +1,11 @@
-"use client"; // Ensures client-side rendering
+"use client";
 
 import { SignInFormModal } from "@/app/_authentication/SignInFormModal";
 import { InView } from "@/components/core/InView";
 import { TextEffect } from "@/components/core/TextEffect";
-import { Link } from "lucide-react";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { FaFacebookF, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
-import { FaArrowsUpDown } from "react-icons/fa6";
 import { LuInstagram } from "react-icons/lu";
 
 const ExplorePage = () => {
@@ -35,7 +33,7 @@ const ExplorePage = () => {
               preset="blur"
               className="md:text-8xl text-5xl leading-tight"
             >
-              Hidden Gems!
+              Hidden Gems
             </TextEffect>
           </div>
           <TextEffect
@@ -69,7 +67,7 @@ const ExplorePage = () => {
             <Image
               src={"/images/undraw_connected_world_wuay.svg"}
               alt="banner image"
-              width={800}
+              width={750}
               height={800}
               className="p-7"
             />
@@ -215,7 +213,7 @@ const ExplorePage = () => {
           </div>
         </footer>
       </section>
-
+      
     </div>
   );
 };

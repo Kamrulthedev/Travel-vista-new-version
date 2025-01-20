@@ -3,7 +3,7 @@ import UsersTable from "./UsersTable";
 
 export const metadata = {
   title: "Dashboard | Manage Users",
-  description: "Travel Tales",
+  description: "Travel-Vista",
 };
 const ManageUsers = () => {
   return (

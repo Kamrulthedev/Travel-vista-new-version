@@ -5,7 +5,7 @@ import AnalyticsBreadcrumb from "./AnalyticsBreadcrumb";
 
 export const metadata = {
   title: "Dashboard | Analytics",
-  description: "Travel Tales",
+  description: "Travel-Vista",
 };
 const AnalyticsPage = () => {
   return (

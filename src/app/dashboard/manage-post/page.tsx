@@ -3,7 +3,7 @@ import PostsTable from "./PostsTable";
 
 export const metadata = {
   title: "Dashboard | Manage Posts",
-  description: "Travel Tales",
+  description: "Travel-Vista",
 };
 const ManageUsers = () => {
   return (

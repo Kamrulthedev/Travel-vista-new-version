@@ -2,7 +2,7 @@ import Sidebar from "@/components/admin/Sidebar";
 
 export const metadata = {
   title: "Dashboard",
-  description: "Travel Tales",
+  description: "Travel-Vista",
 };
 //@ts-ignore
 const AdminDashboardLayout = ({ children }) => {

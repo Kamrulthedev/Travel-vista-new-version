@@ -71,7 +71,7 @@ export default function ResponsiveNav() {
             src={"/images/logo.png"}
             width={46}
             height={46}
-            alt="Travel tales logo"
+            alt="Travel Vista logo"
           />
           <h2 className="uppercase font-semibold ">Travel Vista</h2>
         </Link>

@@ -8,7 +8,7 @@ const NavListItems = () => {
   const navItems = [
     {
       id: 1,
-      title: "About Us",
+      title: "About",
       path: "/about-us",
       isPrivate: false,
     },

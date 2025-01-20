@@ -50,15 +50,15 @@ const AboutUsPage = () => {
           <div className="grid md:grid-cols-2 gap-10 items-center justify-center">
             <aside>
               <h1 className="text-3xl font-semibold">
-                We Improve Your Travel Experience Day by Day with Travel Tales.{" "}
+                We Improve Your Travel Experience Day by Day with Travel-Vista.{" "}
               </h1>
               <p className="text-gray-600 mt-5 text-justify">
-                Welcome to Travel Tales, your ultimate platform for sharing and
+                Welcome to Travel-Vista, your ultimate platform for sharing and
                 discovering travel stories from around the globe. We believe
                 that every journey has a unique tale, and through this platform,
                 travelers can connect, inspire, and learn from one another.
                 Whether you’re a seasoned explorer or just starting your
-                adventures, Travel Tales offers a space to share experiences,
+                adventures, Travel-Vista offers a space to share experiences,
                 seek advice, and discover new destinations through the eyes of
                 fellow travelers.
               </p>
@@ -120,7 +120,7 @@ const AboutUsPage = () => {
                 <h1 className="text-lg font-semibold">
                   {" "}
                   10K People <br />
-                  Choose Travel Tales
+                  Choose Travel-Vista
                 </h1>
               </div>
             </aside>
@@ -141,7 +141,7 @@ const AboutUsPage = () => {
             <aside>
               <h1 className="text-3xl font-semibold">Our Mission</h1>
               <p className="text-gray-600 mt-5 text-justify">
-                At Travel Tales, our mission is to connect and empower travelers
+                At Travel-Vista, our mission is to connect and empower travelers
                 by fostering a space where stories, insights, and travel wisdom
                 can be shared. We want to inspire curiosity and exploration,
                 helping everyone feel more confident and prepared to embark on

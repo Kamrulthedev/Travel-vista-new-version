@@ -7,7 +7,7 @@ import ResponsiveNav from "./ResponsiveNav";
 
 const Navbar = () => {
   return (
-    <nav className="bg-white font-serif py-1 z-50 sticky top-0 shadow-md">
+    <nav className="bg-white font-serif py-1 z-50 sticky top-0 shadow-sm">
       <div className="container mx-auto px-5 flex items-center justify-between">
         <aside className="flex items-center justify-start gap-x-2">
           <Link href={"/"} className="flex items-center">
@@ -15,7 +15,7 @@ const Navbar = () => {
               src={"/images/logo.png"}
               width={56}
               height={56}
-              alt="Travel tales logo"
+              alt="Travel-Vista logo"
             />
             <h2 className="uppercase text-xl hidden sm:block">
               Travel Vista
@@ -31,7 +31,6 @@ const Navbar = () => {
         </aside>
         <aside className="md:hidden">
           <ResponsiveNav />
-   
         </aside>
       </div>
     </nav>

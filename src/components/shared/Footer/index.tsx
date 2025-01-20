@@ -16,7 +16,7 @@ const Footer = () => {
         ))}
       </div>
       <p className="block text-center  text-gray-700 ">
-        &copy; 2024 Travel Tales
+        &copy; 2024 Travel-Vista
       </p>
     </footer>
   );

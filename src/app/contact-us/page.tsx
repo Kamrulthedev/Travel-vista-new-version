@@ -112,7 +112,7 @@ const ContactUsPage = () => {
                 </button>
               </div>
               <p className="text-slate-900 mt-4">
-                © 2024. Travel Tales. <Link href="#">Privacy Policy</Link>
+                © 2024. Travel-Vista. <Link href="#">Privacy Policy</Link>
               </p>
             </div>
           </aside>
