@@ -82,7 +82,7 @@ const ProfileHeader = () => {
               alt="avator"
               width={120}
               height={120}
-              className="rounded-full ring ring-white md:size-32 size-24 bg-blue-100"
+              className="rounded-full ring ring-white md:size-32 size-24 bg-blue-100 object-cover"
             />
             <div className="mt-8">
               <h2 className="font-semibold text-xl text-gray-800 flex items-center gap-1">

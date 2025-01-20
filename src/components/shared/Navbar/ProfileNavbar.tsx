@@ -24,7 +24,7 @@ const ProfileNavbar = () => {
   };
 
   return (
-    <div className="px-5 mt-2 mb-5">
+    <div className="px-5 mt-2 mb-5 pb-6">
       {/* Tabs for larger screens */}
       <ul className="hidden md:flex items-center gap-x-3 bg-white mb-4 text-gray-800 font-semibold">
         {tabs.map((tab, index) => (
