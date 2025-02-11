@@ -71,14 +71,14 @@ const Sidebar = () => {
 
   return (
     <div className="h-full bg-slate-100 pt-10 dark:bg-slate-900">
-    <ul className="flex flex-col gap-3 p-4 text-black font-serif text-lg">
+    <ul className="flex flex-col gap-3 p-3 text-black font-serif text-sm">
       {listItems.map((item) => {
         const isActive = pathname === item.path;
         return (
           <Link
             href={item.path}
             key={item.id}
-            className={`flex items-center gap-2 p-2 rounded-md transition-all duration-200 ${
+            className={`flex items-center gap-1 p-1 rounded-md transition-all duration-200 ${
               isActive
                 ? "bg-primary text-white transform scale-105"
                 : "hover:bg-primary hover:text-white"
