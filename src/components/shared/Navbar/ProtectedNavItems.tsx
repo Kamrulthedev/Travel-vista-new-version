@@ -10,42 +10,40 @@ const ProtectedNavItems = () => {
   return user ? (
     <>
       <Link href={"/"}>
-        <li className="size-9 rounded-sm flex justify-center items-center bg-gray-200 cursor-pointer ">
+        <li className="w-9 h-9 rounded-sm flex justify-center items-center bg-gray-200 cursor-pointer">
           <House size={18} strokeWidth={1} />
         </li>
       </Link>
 
-      <li className="w-24 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer relative gap-2 px-3">
-        <Link href="/about-us" className="flex items-center gap-1">
-          About <Info strokeWidth={1} size={18} />
+      <li className="w-20 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer px-2">
+        <Link href="/about-us" className="flex items-center gap-1 text-sm">
+          Info <Info strokeWidth={1} size={16} />
         </Link>
       </li>
 
-
-      <li className="w-24 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer relative gap-2 px-3">
-        <Link href="/" className="flex items-center gap-1">
-          Message <MessageSquareText strokeWidth={1} size={18} />
+      <li className="w-20 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer px-2">
+        <Link href="/" className="flex items-center gap-1 text-sm">
+          Chat <MessageSquareText strokeWidth={1} size={16} />
         </Link>
       </li>
 
-
-      <li className="w-24 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer relative gap-2 px-3">
-        <Link href="/" className="flex items-center gap-1">
-          Notification <Bell strokeWidth={1} size={18} />
+      <li className="w-20 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer relative px-2">
+        <Link href="/" className="flex items-center gap-1 text-sm">
+          Alerts <Bell strokeWidth={1} size={16} />
         </Link>
         <span className="absolute top-0 right-0 w-2 h-2 bg-red-500 rounded-full transition-all duration-500 ease-in-out"></span>
       </li>
 
-
-      <li className="w-24 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer relative gap-2 px-3">
-        <Link href="/contact-us" className="flex items-center gap-1">
-          Contact <Contact strokeWidth={1} size={18} />
+      <li className="w-20 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer px-2">
+        <Link href="/contact-us" className="flex items-center gap-1 text-sm">
+          Help <Contact strokeWidth={1} size={16} />
         </Link>
       </li>
 
-      <li className="size-9 rounded-sm flex justify-center items-center bg-gray-200 cursor-pointer">
+      <li className="w-9 h-9 rounded-sm flex justify-center items-center bg-gray-200 cursor-pointer">
         <ProfileUtilsPopover />
       </li>
+
     </>
   ) : (
     <li>

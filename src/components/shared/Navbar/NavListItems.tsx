@@ -6,7 +6,6 @@ const NavListItems = () => {
   const { user } = useUser();
 
   const navItems = [
-
     {
       id: 3,
       title: "Admin Dashboard",
