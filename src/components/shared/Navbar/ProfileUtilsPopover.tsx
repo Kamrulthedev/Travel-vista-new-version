@@ -77,7 +77,7 @@ export function ProfileUtilsPopover() {
                   width={40}
                   height={40}
                   alt={userData?.name || "avatar"}
-                  className="rounded-full bg-slate-300 size-12 p-1 object-cover"
+                  className="rounded-full bg-slate-300 size-12 p-[2px] object-cover"
                 />
                 <aside>
                   <p className="font-medium flex items-center gap-1">
@@ -111,13 +111,13 @@ export function ProfileUtilsPopover() {
               </li>
             ))}
             <li
-              className="border-y border-gray-300 flex items-start gap-x-2 text-gray-700 w-full cursor-pointer py-3"
+              className="border border-gray-300 flex items-center gap-x-3 text-gray-700 bg-white hover:bg-red-600 hover:text-white w-full cursor-pointer py-3 px-4 rounded-lg transition-all duration-300 shadow-sm hover:shadow-md"
               onClick={() => setOpen(false)}
             >
-              <Power size={18} />
+              <Power size={14} className="transition-transform duration-300 group-hover:rotate-[-10deg]" />
               <button
                 onClick={handleLogout}
-                className="hover:text-primary transition-colors text-sm"
+                className="text-xs font-medium transition-colors duration-300"
               >
                 Sign Out
               </button>
