@@ -1,12 +1,27 @@
 "use client";
 import { SignInFormModal } from "@/app/_authentication/SignInFormModal";
 import { useUser } from "@/context/userProvider";
-import { Bell, Contact, House, Info, MessageSquareText, Settings } from "lucide-react";
+import { Bell, Contact, House, Info, MessageSquareText } from "lucide-react";
 import Link from "next/link";
 import { ProfileUtilsPopover } from "./ProfileUtilsPopover";
 
 const ProtectedNavItems = () => {
   const { user } = useUser();
+
+  const navItems = [
+    {
+      id: 3,
+      title: "Admin Dashboard",
+      path: "/dashboard",
+      isPrivate: true,
+    },
+  ].filter((item) => {
+    if (item.isPrivate) {
+      return user?.role === "admin";
+    }
+    return true;
+  });
+
   return user ? (
     <>
       <Link href={"/"}>
@@ -40,10 +55,17 @@ const ProtectedNavItems = () => {
         </Link>
       </li>
 
+      {navItems.map((navItem) => (
+        <li key={navItem.id} className="w-40 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer px-2">
+          <Link href={navItem.path} className="text-sm">
+            {navItem.title}
+          </Link>
+        </li>
+      ))}
+
       <li className="w-9 h-9 rounded-sm flex justify-center items-center bg-gray-200 cursor-pointer">
         <ProfileUtilsPopover />
       </li>
-
     </>
   ) : (
     <li>
@@ -53,5 +75,3 @@ const ProtectedNavItems = () => {
 };
 
 export default ProtectedNavItems;
-
-

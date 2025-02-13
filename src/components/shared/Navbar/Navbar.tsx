@@ -1,7 +1,6 @@
 import GlobalSearch from "@/components/ui/GlobalSearch";
 import Image from "next/image";
 import Link from "next/link";
-import NavListItems from "./NavListItems";
 import ProtectedNavItems from "./ProtectedNavItems";
 import ResponsiveNav from "./ResponsiveNav";
 
@@ -25,7 +24,6 @@ const Navbar = () => {
         </aside>
         <aside className="hidden md:block">
           <ul className="md:flex items-center gap-x-4">
-            <NavListItems />
             <ProtectedNavItems />
           </ul>
         </aside>
