@@ -6,7 +6,6 @@ import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import { AlignJustify } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import NavListItems from "./NavListItems";
 import ProtectedNavItems from "./ProtectedNavItems";
 
 const data = [
@@ -76,7 +75,6 @@ export default function ResponsiveNav() {
           <h2 className="uppercase font-semibold ">Travel Vista</h2>
         </Link>
         <ul className="p-4 flex flex-col-reverse gap-2">
-          <NavListItems />
           <ProtectedNavItems />
         </ul>
       </DrawerContent>
