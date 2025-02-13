@@ -6,18 +6,7 @@ const NavListItems = () => {
   const { user } = useUser();
 
   const navItems = [
-    {
-      id: 1,
-      title: "About",
-      path: "/about-us",
-      isPrivate: false,
-    },
-    {
-      id: 2,
-      title: "Contact",
-      path: "/contact-us",
-      isPrivate: false,
-    },
+
     {
       id: 3,
       title: "Admin Dashboard",
