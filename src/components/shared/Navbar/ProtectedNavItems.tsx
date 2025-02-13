@@ -11,7 +11,7 @@ const ProtectedNavItems = () => {
   const navItems = [
     {
       id: 3,
-      title: "Admin Dashboard",
+      title: "Dashboard",
       path: "/dashboard",
       isPrivate: true,
     },
@@ -56,7 +56,7 @@ const ProtectedNavItems = () => {
       </li>
 
       {navItems.map((navItem) => (
-        <li key={navItem.id} className="w-40 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer px-2">
+        <li key={navItem.id} className="w-28 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer px-2">
           <Link href={navItem.path} className="text-sm">
             {navItem.title}
           </Link>
