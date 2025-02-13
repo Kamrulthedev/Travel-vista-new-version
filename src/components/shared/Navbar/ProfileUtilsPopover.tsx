@@ -40,7 +40,7 @@ export function ProfileUtilsPopover() {
       icon: <HeartHandshake size={18} />,
     },
     {
-      id: 3, // Changed from id: 1 to id: 3 for uniqueness
+      id: 3, 
       title: "Documentations",
       icon: <BookText size={18} />,
     },
