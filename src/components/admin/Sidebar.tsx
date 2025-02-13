@@ -10,7 +10,7 @@ import { usePathname } from "next/navigation";
 import { FaCreditCard, FaHome, FaShieldAlt, FaSyncAlt, FaUsers } from "react-icons/fa";
 
 const Sidebar = () => {
-  const pathname = usePathname(); // Get the current route path
+  const pathname = usePathname();
 
   const listItems = [
     {
