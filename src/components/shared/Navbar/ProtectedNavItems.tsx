@@ -1,7 +1,7 @@
 "use client";
 import { SignInFormModal } from "@/app/_authentication/SignInFormModal";
 import { useUser } from "@/context/userProvider";
-import { Bell, House, MessageSquareText, Settings } from "lucide-react";
+import { Bell, Contact, House, MessageSquareText, Settings } from "lucide-react";
 import Link from "next/link";
 import { ProfileUtilsPopover } from "./ProfileUtilsPopover";
 
@@ -24,6 +24,10 @@ const ProtectedNavItems = () => {
         <Bell strokeWidth={1} size={18} />
         <span className="absolute top-0 right-0 inline-block w-2 h-2 transition-all duration-500 ease-in-out bg-red-500 rounded"></span>
       </li>
+      <li className="size-9 rounded-sm flex justify-center items-center bg-gray-200 cursor-pointer relative">
+     Contact <Contact strokeWidth={1} size={18} />
+        <span className="absolute top-0 right-0 inline-block w-2 h-2 transition-all duration-500 ease-in-out bg-red-500 rounded"></span>
+      </li>
       <li className="size-9 rounded-sm flex justify-center items-center bg-gray-200 cursor-pointer">
         <ProfileUtilsPopover />
       </li>
@@ -36,3 +40,5 @@ const ProtectedNavItems = () => {
 };
 
 export default ProtectedNavItems;
+
+
