@@ -1,20 +1,26 @@
+.loader-container {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+}
+
 .spinners {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  inset: 0;
-  z-index: 9999;
-  background-color: rgba(255, 255, 255, 0.8); /* Slight transparent background */
 }
 
 .spinner {
-  width: 20px;
-  height: 20px;
-  margin: 0 15px;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
   border-radius: 50%;
-  background-color: #3498db; /* Modern blue color */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  background-color: #3498db;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   animation: bounce 1.5s infinite ease-in-out;
 }
 
@@ -31,6 +37,6 @@
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-15px);
   }
 }
