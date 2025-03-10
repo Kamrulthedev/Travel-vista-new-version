@@ -32,26 +32,26 @@ const ProtectedNavItems = () => {
 
       <li className="w-20 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer px-2">
         <Link href="/about-us" className="flex items-center gap-1 text-sm">
-          Info <Info strokeWidth={1} size={16} />
+         <Info strokeWidth={1} size={16} />
         </Link>
       </li>
 
       <li className="w-20 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer px-2">
         <Link href="/" className="flex items-center gap-1 text-sm">
-          Chat <MessageSquareText strokeWidth={1} size={16} />
+          <MessageSquareText strokeWidth={1} size={16} />
         </Link>
       </li>
 
       <li className="w-20 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer relative px-2">
         <Link href="/" className="flex items-center gap-1 text-sm">
-          Alerts <Bell strokeWidth={1} size={16} />
+          <Bell strokeWidth={1} size={16} />
         </Link>
         <span className="absolute top-0 right-0 w-2 h-2 bg-red-500 rounded-full transition-all duration-500 ease-in-out"></span>
       </li>
 
       <li className="w-20 h-9 rounded-sm flex items-center justify-center bg-gray-200 cursor-pointer px-2">
         <Link href="/contact-us" className="flex items-center gap-1 text-sm">
-          Help <Contact strokeWidth={1} size={16} />
+           <Contact strokeWidth={1} size={16} />
         </Link>
       </li>
 
