@@ -93,7 +93,7 @@ const GlobalSearch = () => {
 
       {/* Show search modal if search div is open and searchValue is not empty */}
       {isSearchDivOpen && (
-        <div className="absolute w-72 bg-white p-1 glassmorphisom rounded-b-md z-10">
+        <div className="absolute w-96 bg-white p-1 glassmorphisom rounded-b-md z-10">
           {/* Loading state */}
           {isLoading && (
             <div className="text-center p-2 text-sm text-gray-500">
