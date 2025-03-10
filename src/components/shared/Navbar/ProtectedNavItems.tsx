@@ -38,20 +38,20 @@ const ProtectedNavItems = () => {
 
       <li className="w-9 h-9 rounded-sm flex items-center justify-center hover:bg-gray-200 cursor-pointer px-2">
         <Link href="/">
-          <MessageSquareText  strokeWidth={2}  size={18} className="text-black" />
+          <MessageSquareText strokeWidth={2} size={18} className="text-black"/>
         </Link>
       </li>
 
       <li className="w-9 h-9 rounded-sm flex items-center justify-center hover:bg-gray-200 cursor-pointer relative px-2">
         <Link href="/">
-          <Bell  strokeWidth={2}  size={18} className="text-black" />
+          <Bell  strokeWidth={2}  size={18} className="text-black"/>
         </Link>
         <span className="absolute top-0 right-0 w-2 h-2 bg-red-500 rounded-full transition-all duration-500 ease-in-out"></span>
       </li>
 
       <li className="w-9 h-9 rounded-sm flex items-center justify-center hover:bg-gray-200 cursor-pointer px-2">
         <Link href="/contact-us" className="flex items-center gap-1 text-sm">
-           <Contact  strokeWidth={2}  size={18} className="text-black" />
+           <Contact  strokeWidth={2}  size={18} className="text-black"/>
         </Link>
       </li>
 

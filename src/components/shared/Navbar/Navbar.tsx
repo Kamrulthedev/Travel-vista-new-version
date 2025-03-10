@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className="bg-white font-serif py-1 z-50 sticky top-0 shadow-sm">
       <div className="container mx-auto px-5 flex items-center justify-between">
         <aside className="flex items-center justify-start gap-x-2">
-          <Link href={"/"} className="flex items-center ">
+          <Link href={"/"} className="flex items-center">
             <Image
               src={"/images/logo.png"}
               width={56}
