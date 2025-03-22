@@ -170,7 +170,7 @@ const ExplorePage = () => {
                 </a>
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-white transition-transform transform hover:scale-110"
+                  className="text-blue-400 hover:text- transition-transform transform hover:scale-110"
                 >
                   <FaTwitter />
                 </a>
