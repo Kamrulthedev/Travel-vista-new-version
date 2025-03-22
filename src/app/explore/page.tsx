@@ -164,7 +164,7 @@ const ExplorePage = () => {
                 </a>
                 <a
                   href="#"
-                  className="text-orange-400 hover:text-white transition-transform transform hover:scale-110"
+                  className="text-orange-400 hover:text-orange-600 transition-transform transform hover:scale-110"
                 >
                   <LuInstagram />
                 </a>
