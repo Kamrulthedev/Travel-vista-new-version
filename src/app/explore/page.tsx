@@ -6,6 +6,7 @@ import { TextEffect } from "@/components/core/TextEffect";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 import { FaFacebookF, FaLinkedin, FaTwitter, FaYoutube } from "react-icons/fa";
+import { BsTwitterX } from "react-icons/bs";
 import { LuInstagram } from "react-icons/lu";
 
 const ExplorePage = () => {
@@ -170,9 +171,9 @@ const ExplorePage = () => {
                 </a>
                 <a
                   href="#"
-                  className="text-blue-400 hover:text- transition-transform transform hover:scale-110"
+                  className="text-blue-400 hover:text-blue-600 transition-transform transform hover:scale-110"
                 >
-                  <FaTwitter />
+                  <BsTwitterX  />
                 </a>
                 <a
                   href="#"
