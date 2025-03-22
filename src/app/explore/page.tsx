@@ -177,13 +177,13 @@ const ExplorePage = () => {
                 </a>
                 <a
                   href="#"
-                  className="text-red-500 hover:text-white transition-transform transform hover:scale-110"
+                  className="text-red-500 hover:text-red-700 transition-transform transform hover:scale-110"
                 >
                   <FaYoutube />
                 </a>
                 <a
                   href="#"
-                  className="text-blue-600 hover:text-white transition-transform transform hover:scale-110"
+                  className="text-blue-600 hover:text-blue-700 transition-transform transform hover:scale-110"
                 >
                   <FaLinkedin />
                 </a>
