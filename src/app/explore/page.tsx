@@ -91,27 +91,27 @@ const ExplorePage = () => {
               <h2 className="text-black font-bold text-xl mb-4">Quick Links</h2>
               <ul className="space-y-3 text-sm">
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     Privacy Policy
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     Terms of Service
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     Accessibility
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     FAQs
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     Contact Us
                   </a>
                 </li>
@@ -192,7 +192,7 @@ const ExplorePage = () => {
                 Email:{" "}
                 <a
                   href="mailto:support@travelvista.com"
-                  className="hover:underline hover:text-gray-100"
+                  className="hover:underline hover:text-gray-600"
                 >
                   support@travelvista.com
                 </a>
