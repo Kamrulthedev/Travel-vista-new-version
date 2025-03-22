@@ -158,7 +158,7 @@ const ExplorePage = () => {
               <div className="flex space-x-4 text-2xl">
                 <a
                   href="#"
-                  className="text-blue-500 hover:text-white transition-transform transform hover:scale-110"
+                  className="text-blue-500 hover:text-blue-700 transition-transform transform hover:scale-110"
                 >
                   <FaFacebookF />
                 </a>
