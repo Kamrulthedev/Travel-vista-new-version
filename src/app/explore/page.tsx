@@ -123,27 +123,27 @@ const ExplorePage = () => {
               <h2 className="text-black font-bold text-xl mb-4">Resources</h2>
               <ul className="space-y-3 text-sm">
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     Travel Guides
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     Affiliate Program
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     Partnerships
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline hover:text-gray-100">
+                  <a href="#" className="hover:underline hover:text-gray-600">
                     Careers
                   </a>
                 </li>
