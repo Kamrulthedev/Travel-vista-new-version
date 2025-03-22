@@ -171,7 +171,7 @@ const ExplorePage = () => {
                 </a>
                 <a
                   href="#"
-                  className="text-blue-400 hover:text-blue-600 transition-transform transform hover:scale-110"
+                  className="text-gray-500 hover:text-blue-600 transition-transform transform hover:scale-110"
                 >
                   <BsTwitterX  />
                 </a>
